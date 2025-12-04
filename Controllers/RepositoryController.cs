@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LearningCoreAPI.Controllers
 {
+    [ApiExplorerSettings(IgnoreApi = true)]
     [Route("api/[controller]")]
     [ApiController]
     public class RepositoryController : ControllerBase
